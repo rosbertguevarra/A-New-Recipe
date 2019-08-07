@@ -1,0 +1,105 @@
+.form-input {
+  text-align: center;
+}
+
+.form-input input {
+  width: 60%;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  padding: 8px 0px 8px 5px;
+}
+
+.form-input button {
+  margin-left: 20px;
+  padding: 10px 15px 10px 15px;
+}
+
+.banner {
+  margin-top: 50px;
+  color: #eb4d4b;
+  text-align: center;
+}
+
+.title {
+  font-family: "Lobster", cursive;
+  font-size: 70px;
+}
+
+.wording {
+  font-family: "Bitter", serif;
+}
+
+.navbar {
+  background: #d35400 !important;
+}
+
+.recipe-list {
+  background: #e67e22;
+  opacity: 0.9;
+  padding: 7px;
+  margin-bottom: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.recipe-list li {
+  list-style: none;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+  color: white;
+}
+
+.recipe-list img {
+  height: 102px;
+}
+
+.recipe-list button {
+  display: block;
+  margin-top: 20px;
+}
+
+.footer h3 {
+  font-family: "Lobster", cursive;
+  font-size: 30px;
+  color: white;
+}
+.footer p {
+  color: white;
+}
+
+.lds-ring {
+  display: block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+  margin: 0 auto;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 51px;
+  height: 51px;
+  margin: 6px;
+  border: 6px solid #fff;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #d63031 transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
